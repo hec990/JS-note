@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #d7d9e0;
+}
+
+header {   
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(33, 145, 160, 0.219);
+    padding: 5px;
+    height: 6vh;
+}
+
+.container {
+    position: absolute;
+    top: 10%;
+    right: 0;
+    width: 300px;
+    height: 300px;
+}
+
+#html {
+    overflow: auto;
+    word-break: break-all;
+    height: 90vh;
+}
+
+main {
+    height: 90vh;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, 'Times New Roman', 宋体;
+}
+
+/*通过媒体查询来适配手机*/
+@media (max-width: 500px) {
+    #html {
+        height: 45vh;
+    }
+    .container {
+        height: 45vh;
+        width: 100vw;
+        position: relative;
+        top: 0;
+        right: 0;
+    }
+}
