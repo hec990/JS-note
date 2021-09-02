@@ -108,6 +108,7 @@ str =
     }
 }
 #taiji {
+    animation-timing-function:linear;
     animation: rotate-360deg 3000ms infinite;
 }
 `;
